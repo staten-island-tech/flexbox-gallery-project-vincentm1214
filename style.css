@@ -7,11 +7,18 @@ html,
     padding: 0;
 }
 
-.card{
-    height: 50px;
-    width: 45px;
-    background-color: rgba(#468cde);
+.card-title{
+    font-size: 50px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-direction: row;
 }
+
+.card{
+    height: 100px;
+    width: 100px;
+    border: #468cde;
+    background-color: #468cde;
+}
+
