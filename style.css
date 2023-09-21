@@ -7,18 +7,36 @@ html,
     padding: 0;
 }
 
-.card-title{
-    font-size: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-direction: row;
-}
 
 .card{
-    height: 100px;
+    width: 21%;
+    display: flex;
+    height: 39px;
+    border: #468cde;
+    border-radius: 100px;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #468cde;
+
+    border-radius: 10px;
+    margin: 5rem auto;
+    
+    
+    justify-content: space-between;
+}
+
+.parent{
+    flex-direction: column;
+    width: 100px;
+    align-items: center;
+}
+
+
+
+height: 100px;
     width: 100px;
     border: #468cde;
     background-color: #468cde;
-}
-
+    font-size: 50px;
+    display: flex;
