@@ -7,22 +7,29 @@ html,
     padding: 0;
 }
 
-
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: aqua;
+}
 .card{
-    width: 25vw;
+    width: 15vw;
     display: flex;
-    height: 40vw;
+    height: 12vw;
     align-items: center;
     background-color: #468cde;
-    padding: 2%;
+    padding: 2rem;
     display: flex;
-    margin: 1.5rem;
-}
-
-.parent {
+    margin: 2rem;
     flex-direction: column;
     flex-wrap: wrap;
+    box-sizing: content-box;
+}
+
+.h1{
+    font-size: 6rem;
     align-items: center;
 }
 
-.img {}
+.container{
+    font-size: 40px;
+}
