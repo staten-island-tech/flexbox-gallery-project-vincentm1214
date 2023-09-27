@@ -1,7 +1,6 @@
-body,
-html,
-*{
-    font-size: 62.5%;
+html
+{
+    font-size: 20px;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -10,26 +9,39 @@ html,
 body{
     font-family: 'Roboto Condensed', sans-serif;
     background-color: aqua;
+    text-align: center;
 }
-.card{
+.card {
     width: 15vw;
     display: flex;
-    height: 12vw;
+    height: 20vw;
     align-items: center;
     background-color: #468cde;
     padding: 2rem;
     display: flex;
     margin: 2rem;
-    flex-direction: column;
-    flex-wrap: wrap;
     box-sizing: content-box;
-}
-
-.h1{
-    font-size: 6rem;
+    justify-content: space-between;
     align-items: center;
+    flex-direction: column;
 }
 
-.container{
-    font-size: 40px;
+.h1 {
+    font-size: 2rem;
+    align-items: center;
+    padding: 10px;
+    margin: auto;
+}
+
+.parent{
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: auto;
+    width: 100%;
+    display: flex;
+}
+
+.h3{
+    font-size: 2rem;
+    display: flex;
 }
