@@ -43,3 +43,7 @@ h1{
     font-size: 2vw;
     text-align: center;
 }
+
+.card:hover{
+    scale: 1.2;
+}
