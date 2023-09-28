@@ -1,54 +1,44 @@
-html,
 body,
-*
-{
-font-size: 20px;
-box-sizing: border-box;
-margin: 0;
-padding: 0;
+html,
+*{
+    font-size: 10px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}   
+.card{
+    height: 50vh;
+    width: 23%;
+    background-color: rgba(65, 65, 65, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 2.5rem 0;
 }
-
+.card-title{
+    font-size: 2.2rem;
+}
+.card-img{
+    width: 100%;
+}
+.app-des{
+    font-size: 1.1rem;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80vw;
+    margin: 1rem auto;
+    align-items: center;
+    justify-content: space-around;
+}
 
 body{
-font-family: 'Roboto Condensed', sans-serif;
-background-color: aqua;
-text-align: center;
-}
-.card {
-width: 14vw;
-display: flex;
-height: 20vw;
-align-items: center;
-background-color: #468cde;
-padding: 2rem;
-display: flex;
-margin: auto;
-box-sizing: content-box;
-justify-content: space-between;
-align-items: center;
-flex-direction: column;
-box-shadow: 20px 10px 10px red;
+    background-color: aquamarine;
 }
 
-
-.h1 {
-font-size: 2rem;
-align-items: center;
-padding: 10px;
-margin: auto;
-}
-
-
-.parent{
-flex-direction: row;
-flex-wrap: wrap;
-flex: auto;
-width: 100%;
-display: flex;
-}
-
-
-.h3{
-font-size: 2rem;
-display: flex;
+h1{ 
+    font-size: 2vw;
+    text-align: center;
 }
