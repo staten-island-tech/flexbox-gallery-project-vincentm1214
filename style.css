@@ -148,3 +148,15 @@ transform: scale(1.7);
 transform: scale(1);
 }
 }
+
+@media screen and (max-width:1181px){
+    .card {
+        width: 30%;
+    }
+}
+
+@media screen and (max-width:885px){
+    .card {
+        width: 60%;
+    }
+}
