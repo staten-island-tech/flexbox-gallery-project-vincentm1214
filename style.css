@@ -121,7 +121,7 @@ h1{
 
 @keyframes a4 {
     from { background-color: aquamarine;}
-    to {background-color: blue;}
+    to {background-color: teal;}
 }
 
 @keyframes a5 {
